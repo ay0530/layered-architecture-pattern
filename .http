@@ -1,0 +1,15 @@
+###
+#
+GET http://localhost:4000/api/posts
+
+###
+#
+POST http://localhost:4000/api/posts
+content-type: application/json
+
+{
+  "nickname": "test1",
+  "password": "123456",
+  "title": "test1",
+  "content": "test1"
+}
